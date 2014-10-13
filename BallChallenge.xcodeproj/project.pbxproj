@@ -17,13 +17,15 @@
 		BEBC615119EC98350042642E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBC614F19EC98350042642E /* Main.storyboard */; };
 		BEBC615419EC98350042642E /* KXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBC615319EC98350042642E /* KXViewController.m */; };
 		BEBC615719EC98350042642E /* KXMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBC615619EC98350042642E /* KXMyScene.m */; };
-		BEBC615919EC98350042642E /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBC615819EC98350042642E /* Spaceship.png */; };
 		BEBC615B19EC98350042642E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBC615A19EC98350042642E /* Images.xcassets */; };
 		BEBC616219EC98350042642E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBC616119EC98350042642E /* XCTest.framework */; };
 		BEBC616319EC98350042642E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBC613B19EC98350042642E /* Foundation.framework */; };
 		BEBC616419EC98350042642E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBC613F19EC98350042642E /* UIKit.framework */; };
 		BEBC616C19EC98350042642E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEBC616A19EC98350042642E /* InfoPlist.strings */; };
 		BEBC616E19EC98350042642E /* BallChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBC616D19EC98350042642E /* BallChallengeTests.m */; };
+		BEBC617B19EC985B0042642E /* 8Ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBC617819EC985B0042642E /* 8Ball@2x.png */; };
+		BEBC617C19EC985B0042642E /* BeachBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBC617919EC985B0042642E /* BeachBall@2x.png */; };
+		BEBC617D19EC985B0042642E /* SoccerBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBC617A19EC985B0042642E /* SoccerBall@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,13 +55,15 @@
 		BEBC615319EC98350042642E /* KXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXViewController.m; sourceTree = "<group>"; };
 		BEBC615519EC98350042642E /* KXMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXMyScene.h; sourceTree = "<group>"; };
 		BEBC615619EC98350042642E /* KXMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXMyScene.m; sourceTree = "<group>"; };
-		BEBC615819EC98350042642E /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		BEBC615A19EC98350042642E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BEBC616019EC98350042642E /* BallChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBC616119EC98350042642E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BEBC616919EC98350042642E /* BallChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BallChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		BEBC616B19EC98350042642E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEBC616D19EC98350042642E /* BallChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallChallengeTests.m; sourceTree = "<group>"; };
+		BEBC617819EC985B0042642E /* 8Ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8Ball@2x.png"; sourceTree = "<group>"; };
+		BEBC617919EC985B0042642E /* BeachBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BeachBall@2x.png"; sourceTree = "<group>"; };
+		BEBC617A19EC985B0042642E /* SoccerBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SoccerBall@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		BEBC614319EC98350042642E /* BallChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				BEBC617719EC985B0042642E /* Images */,
 				BEBC614C19EC98350042642E /* KXAppDelegate.h */,
 				BEBC614D19EC98350042642E /* KXAppDelegate.m */,
 				BEBC614F19EC98350042642E /* Main.storyboard */,
@@ -128,7 +133,6 @@
 				BEBC615319EC98350042642E /* KXViewController.m */,
 				BEBC615519EC98350042642E /* KXMyScene.h */,
 				BEBC615619EC98350042642E /* KXMyScene.m */,
-				BEBC615819EC98350042642E /* Spaceship.png */,
 				BEBC615A19EC98350042642E /* Images.xcassets */,
 				BEBC614419EC98350042642E /* Supporting Files */,
 			);
@@ -162,6 +166,16 @@
 				BEBC616A19EC98350042642E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEBC617719EC985B0042642E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BEBC617819EC985B0042642E /* 8Ball@2x.png */,
+				BEBC617919EC985B0042642E /* BeachBall@2x.png */,
+				BEBC617A19EC985B0042642E /* SoccerBall@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBC617C19EC985B0042642E /* BeachBall@2x.png in Resources */,
+				BEBC617B19EC985B0042642E /* 8Ball@2x.png in Resources */,
 				BEBC614819EC98350042642E /* InfoPlist.strings in Resources */,
 				BEBC615B19EC98350042642E /* Images.xcassets in Resources */,
-				BEBC615919EC98350042642E /* Spaceship.png in Resources */,
+				BEBC617D19EC985B0042642E /* SoccerBall@2x.png in Resources */,
 				BEBC615119EC98350042642E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
