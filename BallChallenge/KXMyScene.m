@@ -36,22 +36,25 @@
       case 0:
         ball = [SKSpriteNode spriteNodeWithImageNamed:@"8Ball"];
         ball.physicsBody = [SKPhysicsBody bodyWithCircleOfRadius:ball.size.width * 0.5];
-        ball.physicsBody.mass = 0.8;
+        ball.physicsBody.mass = 0.82;
         ball.physicsBody.restitution = 0.2;
         break;
       case 1:
         ball = [SKSpriteNode spriteNodeWithImageNamed:@"BeachBall"];
         ball.physicsBody = [SKPhysicsBody bodyWithCircleOfRadius:ball.size.width * 0.5];
-        ball.physicsBody.mass = 0.1;
-        ball.physicsBody.restitution = 0.8;
+        ball.physicsBody.mass = 0.09;
+        ball.physicsBody.restitution = 0.9;
+        ball.physicsBody.friction = 0.3;
         break;
       default:
         ball = [SKSpriteNode spriteNodeWithImageNamed:@"SoccerBall"];
         ball.physicsBody = [SKPhysicsBody bodyWithCircleOfRadius:ball.size.width * 0.5];
         ball.physicsBody.mass = 0.4;
         ball.physicsBody.restitution = 0.5;
+        ball.physicsBody.angularVelocity = 20.0;
         break;
     }
+    ball.physicsBody.linearDamping = 1.0;
     ball.position = location;
     [self addChild:ball];
   }
