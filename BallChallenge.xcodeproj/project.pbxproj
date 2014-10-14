@@ -28,6 +28,8 @@
 		BEBC617D19EC985B0042642E /* SoccerBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBC617A19EC985B0042642E /* SoccerBall@2x.png */; };
 		BEBC618019EC9F2D0042642E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEBC617E19EC9F2D0042642E /* LICENSE */; };
 		BEBC618119EC9F2D0042642E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BEBC617F19EC9F2D0042642E /* README.md */; };
+		BEBC618419ECA0690042642E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEBC618219ECA0690042642E /* LICENSE */; };
+		BEBC618519ECA0690042642E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BEBC618319ECA0690042642E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		BEBC617A19EC985B0042642E /* SoccerBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SoccerBall@2x.png"; sourceTree = "<group>"; };
 		BEBC617E19EC9F2D0042642E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BEBC617F19EC9F2D0042642E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		BEBC618219ECA0690042642E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BEBC618319ECA0690042642E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		BEBC612F19EC98350042642E = {
 			isa = PBXGroup;
 			children = (
+				BEBC618219ECA0690042642E /* LICENSE */,
+				BEBC618319ECA0690042642E /* README.md */,
 				BEBC614319EC98350042642E /* BallChallenge */,
 				BEBC616719EC98350042642E /* BallChallengeTests */,
 				BEBC613A19EC98350042642E /* Frameworks */,
@@ -263,10 +269,12 @@
 			files = (
 				BEBC617C19EC985B0042642E /* BeachBall@2x.png in Resources */,
 				BEBC617B19EC985B0042642E /* 8Ball@2x.png in Resources */,
+				BEBC618519ECA0690042642E /* README.md in Resources */,
 				BEBC614819EC98350042642E /* InfoPlist.strings in Resources */,
 				BEBC618019EC9F2D0042642E /* LICENSE in Resources */,
 				BEBC615B19EC98350042642E /* Images.xcassets in Resources */,
 				BEBC617D19EC985B0042642E /* SoccerBall@2x.png in Resources */,
+				BEBC618419ECA0690042642E /* LICENSE in Resources */,
 				BEBC618119EC9F2D0042642E /* README.md in Resources */,
 				BEBC615119EC98350042642E /* Main.storyboard in Resources */,
 			);
